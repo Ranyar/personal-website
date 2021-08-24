@@ -156,11 +156,44 @@
       </section>
       <section class="portfolio">
         <h2 class="portfolio__heading">Портфолио</h2>
-        <ul class="portfolio__list">
-          <li class="portfolio__item">Девайс</li>
-          <li class="portfolio__item">Седона</li>
-          <li class="portfolio__item">Кексобукинг</li>
+        <ul class="portfolio__filter filter">
+          <li class="filter__item">Показать все</li>
+          <li class="filter__item">Адаптивная вёрстка</li>
+          <li class="filter__item">Статичная вёрстка</li>
+          <li class="filter__item">JavaScript</li>
+          <li class="filter__item">Учебные проекты</li>
+          <li class="filter__item">Коммерческие проекты</li>
         </ul>
+        <ul class="portfolio__list">
+          <li class="portfolio__item item-portfolio">
+            <div class="item-portfolio__wrapper">
+              <img src="#" width="360" height="380" alt="Седона">
+              <div class="item-portfolio__button-wrapper">
+                <a class="button portfolio__button portfolio__button--show-website" href="#">Посмотреть сайт</a>
+                <a class="button portfolio__button portfolio__button--show-repository" href="#">Репозиторий на GitHub</a>
+              </div>
+            </div>
+          </li>
+          <li class="portfolio__item item-portfolio">
+            <div class="item-portfolio__wrapper">
+              <img src="#" width="360" height="380" alt="Девайс">
+              <div class="item-portfolio__button-wrapper">
+                <a class="button portfolio__button portfolio__button--show-website" href="#">Посмотреть сайт</a>
+                <a class="button portfolio__button portfolio__button--show-repository" href="#">Репозиторий на GitHub</a>
+              </div>
+            </div>
+          </li>
+          <li class="portfolio__item item-portfolio">
+            <div class="item-portfolio__wrapper">
+              <img src="#" width="360" height="380" alt="Кексобукинг">
+              <div class="item-portfolio__button-wrapper">
+                <a class="button portfolio__button portfolio__button--show-website" href="#">Посмотреть сайт</a>
+                <a class="button portfolio__button portfolio__button--show-repository" href="#">Репозиторий на GitHub</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <button class="button portfolio__button portfolio__button--show-more "></button>
       </section>
       <section class="about">
         <h2 class="about__heading">Обо мне</h2>
