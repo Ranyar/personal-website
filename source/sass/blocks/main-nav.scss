@@ -1,0 +1,31 @@
+.main-nav {
+  padding: 28px 27px 28px 27px;
+  max-width: 760px;
+  flex-grow: 1;
+}
+
+.main-nav__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav__link {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: $basic-black;
+  position: relative;
+
+  &:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    width: 100%;
+    height: 3px;
+    background-color: $basic-accent-violet;
+  }
+}

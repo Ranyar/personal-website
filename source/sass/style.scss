@@ -1,5 +1,10 @@
-// ----- Общие стили
+// ----- General styles
 @import "normalize.scss";
 @import "variables.scss";
 @import "global.scss";
 @import "fonts.scss";
+
+// ----- Header
+@import "blocks/page-header.scss";
+@import "blocks/be-in-touch.scss";
+@import "blocks/main-nav.scss";

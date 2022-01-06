@@ -5,7 +5,7 @@ parserOptions:
   sourceType: "module"
 
 env:
-  es2017: true
+  es6: true
   browser: true
 
 globals:
@@ -14,4 +14,4 @@ globals:
   noUiSlider: readonly
 
 extends:
-  "htmlacademy/vanilla"
+  "htmlacademy/es6"

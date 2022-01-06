@@ -2,33 +2,47 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Разработка сайтов и интерфейсов различной сложности">
     <title>Frontend-разработчик Андрей Кузнецов | персональный сайт</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font">
+    <link rel="preload" href="fonts/Gilroy-Semibold.woff2" as="font">
+    <link rel="preload" href="fonts/Gilroy-Bold.woff2" as="font">
+    <link rel="preload" href="fonts/Gilroy-Extrabold.woff2" as="font">
 </head>
   <body class="page-body">
     <header class="page-header">
-      <nav class="page-header__nav main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Навыки и технологии</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Образование и курсы</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Портфолио</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Обо мне</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="page-header__horizontal-menu">
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Навыки и технологии</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Образование и курсы</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Портфолио</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Обо мне</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="be-in-touch">
+          <a class="be-in-touch__link" href="#">
+            <img src="img/phone-number.svg" alt="Позвоните мне">
+          </a>
+        </div>
+      </div>
       <h1 class="visually-hidden">Frontend-разработчик Андрей Кузнецов</h1>
-      <p class="page-header__title">Привет! Меня зовут Андрей.</p>
-      <p class="page-header__description">Я — frontend-разработчик.<br>
-      Создаю сайты и реализую интерфейсы<br>
+      <p class="page-header__title">Привет! ✌<br>Я Андрей Кузнецов,<br> frontend-разработчик</p>
+      <p class="page-header__description">Создаю сайты и реализую интерфейсы<br>
       различной сложности.</p>
       <a class="button" href="#">Связаться со мной</a>
       <a class="button" href="#">Что я умею?</a>
