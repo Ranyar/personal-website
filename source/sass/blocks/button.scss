@@ -1,0 +1,46 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $basic-black;
+}
+
+.button--introduce {
+  height: 65px;
+  flex-basis: 260px;
+  border-radius: 10px;
+}
+
+.button--contact-me {
+  background-color: $basic-accent-yellow;
+  margin-right: 10px;
+
+  &:hover,
+  &:focus {
+    background-color: $button-contact-me-active;
+  }
+}
+
+.button--introduce.button--what-i-can {
+  border: 1px solid rgba($basic-accent-violet, 0.34);
+  flex-basis: 210px;
+
+  &:hover,
+  &:focus {
+    background-color: $basic-accent-violet;
+    color: $basic-white;
+  }
+}
+
+.button--resume {
+  border: 1px solid rgba($basic-accent-violet, 0.34);
+  flex-basis: 214px;
+  height: 56px;
+  border-radius: 10px;
+
+  &:hover,
+  &:focus {
+    background-color: $basic-accent-violet;
+    color: $basic-white;
+  }
+}

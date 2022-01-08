@@ -1,0 +1,28 @@
+.introduce {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 47px;
+}
+
+.introduce__text {
+  padding-top: 62px;
+}
+
+.introduce__title {
+  font-size: 50px;
+  letter-spacing: -0.027em;
+  line-height: 60px;
+  font-weight: bold;
+  margin: 0 0 14px 0;
+}
+
+.introduce__description {
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  margin: 0 0 33px 0;
+}
+
+.introduce__buttons {
+  display: flex;
+}

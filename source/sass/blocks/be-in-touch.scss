@@ -1,5 +1,9 @@
 .be-in-touch {
-  max-width: 280px;
+  flex-basis: 320px;
+  padding: 15px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .be-in-touch__link {
@@ -10,4 +14,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &:hover {
+    background-color: $basic-accent-violet;
+
+    & svg {
+      fill: $basic-white;
+    }
+  }
+
+  & svg {
+    fill: $basic-black;
+  }
 }
